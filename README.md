@@ -13,11 +13,9 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 Please review the following documents: scrap_mars.py, index.html, app.py Mission_to_Mars.ipynb SCREEN PRINT: available at capture.png
 
-To view: Your site is published at 
+
 
 SUMMARY: Was able to work through all the various issues and publish a working site! I am still unable to understand why I cannot reset the index of the dataframe. This was the core error that continued to plague me. I had to comment out: mars_df.set_index(0, inplace=True) and replace it with mars_df.index.drop mars_df.index.names= [None] mars_df.columns= ['Compare', 'Mars', 'Earth'] to get the site to function. I will bring this up in office hours to figure out what is the heart of the issue.
-
-Additionally, if you want to review the multiple versions of code I tried / copied / re-wrote / mutilated. please review the contents of the ATTEMPTS folder.
 
 About
 WebScraping Homework
